@@ -84,3 +84,4 @@ python manage.py test -v 3      # Максимальная детализаци�
 
 - GitHub: @DmitryAlexandrov91 (https://github.com/DmitryAlexandrov91)
 - Telegram: @AlDmAl
+- Habr Career: https://career.habr.com/aldmal
