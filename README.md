@@ -1,53 +1,35 @@
 # Django testing 
 
-Проект демонстрирует покрытие pytest и unittest тестами Django приложения.
-Сверху на всё это добро наложен ещё один слой тестов на библиотеке pytest.
+Проект представляет из себя два простных одностраничных Django приложения, покрытых тестами.
+Отлично подходит для знакомства с основами тестирования в python.
+
+В приложении ya_news реализовано покрытие тестами pytest. Директория с тестами<br>
+
+- ya_news/news/pytest_tests
+
+В приложении ya_note - unittest тесты. Директория с тестами <br>
+
+- ya_note/notes/tests
 
 
-Dev
- └── django_testing
-     ├── ya_news
-     │   ├── news
-     │   │   ├── fixtures/
-     │   │   ├── migrations/
-     │   │   ├── pytest_tests/   <- Директория с вашими тестами pytest для проекта ya_news
-     │   │   ├── __init__.py
-     │   │   ├── admin.py
-     │   │   ├── apps.py
-     │   │   ├── forms.py
-     │   │   ├── models.py
-     │   │   ├── urls.py
-     │   │   └── views.py
-     │   ├── templates/
-     │   ├── yanews/
-     │   ├── manage.py
-     │   └── pytest.ini
-     ├── ya_note
-     │   ├── notes
-     │   │   ├── migrations/
-     │   │   ├── tests/          <- Директория с вашими тестами unittest для проекта ya_note
-     │   │   ├── __init__.py
-     │   │   ├── admin.py
-     │   │   ├── apps.py
-     │   │   ├── forms.py
-     │   │   ├── models.py
-     │   │   ├── urls.py
-     │   │   └── views.py
-     │   ├── templates/
-     │   ├── yanote/
-     │   ├── manage.py
-     │   └── pytest.ini
-     ├── .gitignore
-     ├── README.md
-     ├── requirements.txt
-     └── structure_test.py
-```
+## Инструкция по развёртыванию
 
-## После копирования тестов, написанных в ходе прохождения спринта, для проверки готовности проекта к сдаче необходимо выполнить 4 действия:
-1. Создать и активировать виртуальное окружение; установить зависимости из файла `requirements.txt`;
-2. Запустить скрипт для `run_tests.sh` из корневой директории проекта:
-```sh
-bash run_tests.sh
-```
+Проект разработан на Python 3.9
 
-**Если все проверки успешно выполнились, проект можно отправлять на ревью.**
+Склонируйте репозиторий, разверните виртуальное окружение и установите зависимости из файла requirements.txt
+
+
+
+## Автор
+
+Александров Дмитрий
+
+<u>GitHub</u>
+ - https://github.com/DmitryAlexandrov91
+
+ <u>Telegram</u>
+ - https://t.me/@AlDmAl
+
+
+
+
